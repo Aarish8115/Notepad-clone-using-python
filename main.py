@@ -25,9 +25,9 @@ root.config(bg="#292926")# background color of the window
 root.resizable(False,False)# to make the window non recycleable
 
 # save button
-b1=Button(root,width=15,height=1,text="save file",font="varela_round",fg="#292926",bg="white",command=save_file).place(x=200,y=15)
+b1=Button(root,width=15,height=1,text="save file",font="varela_round",fg="#292926",bg="white",command=save_file,relief=FLAT).place(x=200,y=15)
 # open button
-b2=Button(root,width=15,height=1,text="open file",font="varela_round",fg="#292926",bg="white",command=open_file).place(x=450,y=15)
+b2=Button(root,width=15,height=1,text="open file",font="varela_round",fg="#292926",bg="white",command=open_file,relief=FLAT).place(x=450,y=15)
 # text box
 text_box=Text(root,height=28,width=78,bg="white",fg="#292926",font="varela_round",wrap=WORD)
 text_box.place(x=50,y=65)
